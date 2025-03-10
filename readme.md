@@ -4,19 +4,14 @@
 * Hardware Supported: "Sparkfun Pro Micro RP2040" MCU
 
 # build environment setup
-
+```bash
 pip3 install --user qmk
-
 qmk setup
-
 qmk doctor
-
 qmk new-keyboard
-
 qmk new-keymap right
-
 qmk config user.keyboard=paintbrush
-
+```
 
 ## Make example for this keyboard (after setting up your build environment):
 
@@ -31,4 +26,5 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 ## Bootloader
 
 Enter the bootloader in the documented way for the first time flash
+
 after flashing QMK for the first time you can double press reset to enter it more easily
