@@ -4,12 +4,19 @@
 * Hardware Supported: "Sparkfun Pro Micro RP2040" MCU
 
 # build environment setup
+
 pip3 install --user qmk
+
 qmk setup
+
 qmk doctor
+
 qmk new-keyboard
+
 qmk new-keymap right
+
 qmk config user.keyboard=paintbrush
+
 
 ## Make example for this keyboard (after setting up your build environment):
 
