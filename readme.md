@@ -3,11 +3,19 @@
 * Keyboard Maintainer: [eggg-uk](https://github.com/eggg-uk)
 * Hardware Supported: "Sparkfun Pro Micro RP2040" MCU
 
-Make example for this keyboard (after setting up your build environment):
+# build environment setup
+pip3 install --user qmk
+qmk setup
+qmk doctor
+qmk new-keyboard
+qmk new-keymap right
+qmk config user.keyboard=paintbrush
+
+## Make example for this keyboard (after setting up your build environment):
 
     qmk compile -kb paintbrush -keymap right
 
-Flashing example for this keyboard:
+## Flashing example for this keyboard:
 
     qmk flash -kb paintbrush -keymap right
 
