@@ -12,6 +12,7 @@ qmk new-keyboard
 qmk new-keymap right
 qmk config user.keyboard=paintbrush
 ```
+Then dropping this repo's contents into ~/qmk-firmware/keyboards/paintbrush/
 
 ## Make example for this keyboard (after setting up your build environment):
 
